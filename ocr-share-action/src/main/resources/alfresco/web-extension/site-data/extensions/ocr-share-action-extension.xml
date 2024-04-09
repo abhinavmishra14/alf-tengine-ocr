@@ -4,13 +4,6 @@
 			<id>OCR share action extension</id>
 			<version>1.0</version>
 			<auto-deploy>true</auto-deploy>
-			<evaluator type="group.module.evaluator">
-				<params>
-					<groups>GROUP_ALFRESCO_ADMINISTRATORS</groups>
-					<relation>OR</relation>
-					<negate>false</negate>
-				</params>
-			</evaluator>
 			<configurations>
 				<config evaluator="string-compare" condition="DocLibActions">
 					<actions>
